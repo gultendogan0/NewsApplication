@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/breakingNewsFragment"
-        android:name="com.androiddevs.mvvmnewsapp.ui.fragments.BreakingNewsFragment"
+        android:name="com.gultendogan.mvvmnewsapp.ui.fragments.BreakingNewsFragment"
         android:label="BreakingNewsFragment" >
         <action
             android:id="@+id/action_breakingNewsFragment_to_articleFragment"
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragment"
-        android:name="com.androiddevs.mvvmnewsapp.ui.fragments.SavedNewsFragment"
+        android:name="com.gultendogan.mvvmnewsapp.ui.fragments.SavedNewsFragment"
         android:label="SavedNewsFragment" >
         <action
             android:id="@+id/action_savedNewsFragment_to_articleFragment"
@@ -31,10 +31,10 @@
 
     <fragment
         android:id="@+id/articleFragment"
-        android:name="com.androiddevs.mvvmnewsapp.ui.fragments.ArticleFragment"
+        android:name="com.gultendogan.mvvmnewsapp.ui.fragments.ArticleFragment"
         android:label="ArticleFragment" >
         <argument
             android:name="article"
-            app:argType="com.androiddevs.mvvmnewsapp.models.Article" />
+            app:argType="com.gultendogan.mvvmnewsapp.models.Article" />
     </fragment>
 </navigation>
