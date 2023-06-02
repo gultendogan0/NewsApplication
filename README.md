@@ -1,34 +1,41 @@
 # News Application
 
-## 	:book: Description :
 
-### :point_right: Exchange rate information withdrawn from the Central Bank of the Republic of Turkey is displayed in the application.
 
-### :point_right: The address where the values are drawn : https://www.tcmb.gov.tr/kurlar/today.xml
 
-### :point_right: Data is shown in app using Jsoup library
 
+ ## 	:book: Description :
+
+### :point_right: In this application, you can read the latest news, add to your favorites and search for the news you want.
+
+### :point_right: Fragment and navigation were used to enable transition between pages.
+
+### :point_right: The Glide library was used to display images from the service.
+
+### :point_right: The room library was used to record the news.
 </br>
 
 | Pages in the app | 
 | ----------------- |
 | Home Page | 
-| Item Select |   
+| Detail Pege | 
+| Favorite Page |  
 
 ## :floppy_disk: Project Features :
 
-<div>:heavy_check_mark: Kotlin </div>
+<div>:heavy_check_mark: Lifecycle </div>
 <div>:heavy_check_mark: MVVM Architecture </div>
-<div>:heavy_check_mark: Jsoup</div>
+<div>:heavy_check_mark: Room</div>
+<div>:heavy_check_mark: Coroutines</div>
+<div>:heavy_check_mark: Navigation</div>
+<div>:heavy_check_mark: Glide</div>
 <div style="display: flex;">
   
 </br>
 
 ## :camera_flash: Screenshot :
-| Home | Items | Results | 
+| Home |Search | Favorite | 
 |:-:|:-:|:-:|
-| ![WhatsApp Image 2023-06-02 at 16 01 16](https://github.com/gultendogan0/NewsApplication/assets/63645518/b98802bf-5458-47fe-8854-29713caaad04)| ![WhatsApp Image 2023-06-02 at 15 53 07](https://github.com/gultendogan0/NewsApplication/assets/63645518/678cc055-4101-4454-9075-277f1d0d4f90) | ![WhatsApp Image 2023-06-02 at 15 53 06](https://github.com/gultendogan0/NewsApplication/assets/63645518/a9548b56-005e-4b19-8b37-2ecf1a75a3a5) | 
-
-
+| ![ekran1](https://github.com/gultendogan0/NewsApplication/assets/63645518/6bc82d51-c5ef-4766-aa7c-bd923a76b4df)| ![ekran2](https://github.com/gultendogan0/NewsApplication/assets/63645518/091116bb-fb6f-459b-82df-8da4b940b237) | ![ekran3](https://github.com/gultendogan0/NewsApplication/assets/63645518/d1ef0f80-46f4-4073-b56a-75312472d14b) | 
 
 
